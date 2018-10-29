@@ -1,0 +1,97 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-intro {
+  background-image: linear-gradient(to bottom, rgba(52, 35, 54, .2), rgba(52, 35, 54, .9)), url('../img/kids-learning.jpg');
+  background-position: center center, bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff;
+  height: 150vh;
+  max-height: 80em;
+}
+
+.nav-bg {
+  background: rgba(255, 255, 255, .5);
+}
+
+.p-content {
+  text-shadow: 3px 2px 15px #000;
+}
+
+.txt-width {
+  max-width: 23em;
+}
+
+.ipad-img {
+  padding-left: 3em;
+}
+
+.d-btn {
+  max-height: 2em;
+}
+
+.app-img {
+  max-width: 80%;
+}
+
+.feature-img {
+  max-width: 100%;
+}
+
+.a-img {
+  max-width: 85%;
+}
+
+.features,
+.a-features {
+  background-color: #f3f3f3;
+}
+
+.video-section {
+  height: 60vh;
+  max-height: 64em;
+  background-image: linear-gradient(to bottom, rgba(170, 33, 89, .1), rgba(170, 33, 89, .3)), url('../img/curtains-patterns.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.feature {
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+}
+
+.feature-text {
+  flex-grow: 1;
+}
+
+.feature-icon {
+  margin-right: .5em;
+}
+
+.f-copyright {
+  border-top: 2px solid #f1f1f1;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .app-intro {
+    height: 100vh;
+  }
+
+  .feature-img {
+    max-width: 65%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .feature-img {
+    max-width: 80%;
+  }
+
+}
